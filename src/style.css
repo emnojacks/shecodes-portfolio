@@ -18,7 +18,7 @@ body {
 /* media queries */
 @media (max-width: 576px) {
   .container {
-    max-width: 550px!important;
+    max-width: 550px !important;
     text-align: center;
     display: block;
     max-width: 550px;
@@ -31,14 +31,27 @@ body {
     justify-content: center;
     width: 100%;
   }
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
+  }
 }
 
 /*Small devices (landscape phones, 576px and up)*/
-/* @media (min-width: 576px) {
-  body {
-    text-align: center;
-    display: block;
-    max-width: 550px;
+@media (min-width: 576px) {
+  h1 {
+    font-size: 96px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 12px;
   }
 }
 /* Medium devices (tablets, 768px and up)*/
