@@ -99,6 +99,9 @@ p {
   background-color: var(--primary-color) !important;
 }
 
+.btn > a {
+  color: white;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
