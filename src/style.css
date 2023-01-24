@@ -101,6 +101,11 @@ p {
 
 .btn > a {
   color: white;
+  text-decoration: none;
+}
+
+.btn {
+  border: 0px !important;
 }
 .navigation-links {
   display: flex;
@@ -157,4 +162,9 @@ p {
 
 #contact {
   text-align: center;
+}
+
+.btn:hover {
+  font-weight: bold;
+  transition: ease-in-out;
 }
