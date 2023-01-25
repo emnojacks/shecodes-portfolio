@@ -14,8 +14,7 @@
     <title>About Em J</title>
   </head>
   <body>
-
- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Em J</a>
         <button
@@ -31,9 +30,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" title="homepage" href="#">Home</a>
-            <a class="nav-link" href="about.html" title="about me">About Me</a>
-            <a class="nav-link" href="about.html#contact" title="contact me">Contact Me</a>
+            <a
+              class="nav-link active"
+              aria-current="page"
+              title="homepage"
+              href="/index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="about.html" title="about me">About</a>
+            <a class="nav-link" href="about.html#contact" title="contact me"
+              >Contact</a
+            >
           </div>
         </div>
       </div>
@@ -42,21 +49,22 @@
       <!-- <br/>
       <a href="/index.html" title="homepage" class="homepage-link">Back to homepage</a>
     </br> -->
-    <div class="text-center">
-      <h1 class="responsive_h1">About me</h1>
-      <h3 class="responsive_h3">Front-end developer from Denver, CO United States</h3>
+      <div class="text-center">
+        <h1 class="responsive_h1">About me</h1>
+        <h3 class="responsive_h3">
+          Front-end developer from Denver, CO United States
+        </h3>
 
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-      </p>
-    </div>
+        <p>
+          This is the portfolio of Em J, an aspiring web developer. Em J loves
+          webdesign and a UX that is minimalist / low carbon, ethical,
+          conscientiously colored, mobile first, and accessible.
+        </p>
+      </div>
       <div class="row">
         <div class="col-sm-4">
           <img
-            src="/src/images/yoga.png"
+            src="/src/images/nedge.png"
             alt="yoga"
             class="img-fluid p-2 rounded shadow border"
           />
@@ -70,7 +78,7 @@
         </div>
         <div class="col-sm-4">
           <img
-            src="/src/images/yogurt.png"
+            src="/src/images/listo.png"
             alt="yoga"
             class="img-fluid p-2 rounded shadow border"
           />
@@ -80,10 +88,12 @@
       <br />
 
       <div id="contact">
-        <h2 class="responsive_h2">📮 Contact me</h2>
-        <a href="mailto:feminijacks@gmail.com" class="email-link">
-          femnenijacks45@gmail.com
-        </a>
+        <h2 class="responsive_h2">Contact me</h2>
+       
+<a href="https://www.linkedin.com/in/emily-jackson-86357551/" class="email-link" target="_blank"><button class="btn">LinkedIn</button></a>
+<a href="https://www.linkedin.com/in/emily-jackson-86357551/" class="email-link" target="_blank"><button class="btn">Github</button></a>
+<a href="https://github.com/emnojacks" class="email-link" target="_blank"><button class="btn">Facebook</button></a>
+        <br />
         <br />
       </div>
     </div>
@@ -92,13 +102,22 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script src="jquery.fittext.js"></script>
-<script>
-//adjust eteh param up for more agro resizing 
-jQuery(".responsive_h1").fitText(1.1, { minFontSize: '48px', maxFontSize: '96px' });
-jQuery(".responsive_h2").fitText(1.1, { minFontSize: '32px', maxFontSize: '48px' });
-jQuery(".responsive_h3").fitText(1.1, { minFontSize: '12px', maxFontSize: '24px' });
-</script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="jquery.fittext.js"></script>
+    <script>
+      //adjust eteh param up for more agro resizing
+      jQuery(".responsive_h1").fitText(1.1, {
+        minFontSize: "48px",
+        maxFontSize: "96px",
+      });
+      jQuery(".responsive_h2").fitText(1.1, {
+        minFontSize: "32px",
+        maxFontSize: "48px",
+      });
+      jQuery(".responsive_h3").fitText(1.1, {
+        minFontSize: "12px",
+        maxFontSize: "24px",
+      });
+    </script>
   </body>
 </html>
