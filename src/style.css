@@ -230,3 +230,9 @@ p {
   margin: 10%;
 max-width: 800px;
 }
+
+.padding-3 {
+padding: 15px;
+border-radius: 15px;
+background-color: var(--secondary-color);
+}
