@@ -88,6 +88,7 @@ h2,
 h3 {
   margin: 0;
   padding: 3px;
+font-weight: bold!important;
 }
 
 /* h3 {
@@ -165,8 +166,10 @@ p {
   text-decoration: underline;
 }
 
-#contact {
+#hero-contact {
   text-align: center;
+max-width: 60%;
+margin:0 auto;
 }
 
 .btn:hover {
@@ -190,4 +193,6 @@ padding: 0px;
 text-align: end;
 }
 
-
+.contact-page-link:hover {
+font-weight: bold;
+color:#6c63ff; }
