@@ -35,47 +35,54 @@ body {
     font-size: 48px !important;
   }
   h2 {
-    font-size: 32px !important;
+    font-size: 30px !important;
   }
   h3 {
     font-size: 20px !important;
   }
+p {
+font-size: 12px!important;
+}
 }
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
   h1 {
-    font-size: 96px !important;
+    font-size: 80px !important;
+  }
+  h2 {
+    font-size: 30px !important;
+  }
+  h3 {
+    font-size: 24px !important;
+  }
+p {
+font-size: 15px!important;
+}
+}
+/* Medium devices (tablets, 768px and up)*/
+ @media (min-width: 768px) {
+ h1 {
+    font-size: 85px !important;
   }
   h2 {
     font-size: 48px !important;
   }
   h3 {
-    font-size: 24px !important;
+    font-size: 28px !important;
   }
+p {
+font-size: 20px!important;
 }
-/* Medium devices (tablets, 768px and up)*/
-/* @media (min-width: 768px) {
-  ...;
-} */
+}
 
-/* Large devices (desktops, 992px and up)*/
-/* @media (min-width: 992px) {
-  ...;
-} */
 
-/* X-Large devices (large desktops, 1200px and up)*/
-/* @media (min-width: 1200px) {
-  ...;
-} */
-
-/* XX-Large devices (larger desktops, 1400px and up)*/
-/* @media (min-width: 1400px) {
-  ...;
-} */
-*/ .header-div {
+.header-div {
   max-width: 70%;
   margin: 0 auto;
+}
+#hero-about {
+margin: 10%;
 }
 
 h1,
