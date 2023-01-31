@@ -1,6 +1,6 @@
 :root {
   --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --secondary-color: #ac98e940;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -8,6 +8,7 @@ body {
   margin: 0 auto;
   text-align: center;
   width: 100%;
+  font-family: "Maven Pro", sans-serif!important;
 }
 .container {
   width: 100%;
@@ -19,7 +20,7 @@ body {
 @media (max-width: 576px) {
   .container {
     max-width: 550px !important;
-    text-align: center!important;
+    text-align: center !important;
     display: block;
     max-width: 550px;
   }
@@ -40,9 +41,9 @@ body {
   h3 {
     font-size: 20px !important;
   }
-p {
-font-size: 12px!important;
-}
+  p {
+    font-size: 12px !important;
+  }
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -56,13 +57,13 @@ font-size: 12px!important;
   h3 {
     font-size: 24px !important;
   }
-p {
-font-size: 15px!important;
-}
+  p {
+    font-size: 15px !important;
+  }
 }
 /* Medium devices (tablets, 768px and up)*/
- @media (min-width: 768px) {
- h1 {
+@media (min-width: 768px) {
+  h1 {
     font-size: 85px !important;
   }
   h2 {
@@ -71,24 +72,22 @@ font-size: 15px!important;
   h3 {
     font-size: 28px !important;
   }
-p {
-font-size: 20px!important;
+  p {
+    font-size: 20px !important;
+  }
 }
-}
-
 
 .header-div {
   max-width: 70%;
   margin: 0 auto;
 }
 
-
 h1,
 h2,
 h3 {
   margin: 0;
   padding: 3px;
-font-weight: bold!important;
+  font-weight: bold !important;
 }
 
 /* h3 {
@@ -112,6 +111,10 @@ p {
 
 .btn {
   border: 0px !important;
+}
+
+.btn-purple {
+  background-color: var(--primary-color) !important;
 }
 .navigation-links {
   display: flex;
@@ -168,8 +171,8 @@ p {
 
 #hero-contact {
   text-align: center;
-max-width: 60%;
-margin:0 auto;
+  max-width: 60%;
+  margin: 0 auto;
 }
 
 .btn:hover {
@@ -177,22 +180,53 @@ margin:0 auto;
   transition: ease-in-out;
 }
 
-#hero-work, #hero-about {
-margin: 10%;
+#hero-work,
+#hero-about {
+  margin: 10%;
 }
 
 .work-container {
-margin: 10%;
+  margin: 10%;
 }
 
-p{
-padding: 0px;
+p {
+  padding: 0px;
 }
 
 .right-align {
-text-align: end;
+  text-align: end;
 }
 
+.contact-page-link {
+  color: #6c63ff;
+}
 .contact-page-link:hover {
-font-weight: bold;
-color:#6c63ff; }
+  font-weight: bold;
+  color: #4742a5;
+}
+
+.social-links {
+  text-align: center;
+}
+.social-links a {
+  padding: 20px;
+  color: #6c63ff;
+}
+.social-links a:hover {
+  padding: 20px;
+  color: #4742a5;
+}
+
+.footer-email a {
+  color: #6c63ff !important;
+}
+
+.footer-email a:hover {
+  color: #4742a5 !important;
+}
+
+.footer-box {
+  background-color: var(--secondary-color);
+  margin: 10%;
+max-width: 800px;
+}
