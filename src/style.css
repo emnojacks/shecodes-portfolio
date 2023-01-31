@@ -237,3 +237,6 @@ p {
   border-radius: 15px;
   background-color: var(--secondary-color);
 }
+.active {
+color: var(--primary-color)!important;
+}
