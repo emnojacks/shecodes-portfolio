@@ -19,7 +19,7 @@ body {
 @media (max-width: 576px) {
   .container {
     max-width: 550px !important;
-    text-align: center;
+    text-align: center!important;
     display: block;
     max-width: 550px;
   }
@@ -29,7 +29,7 @@ body {
   .bv-btn {
     display: block;
     justify-content: center;
-    width: 100%;
+    width: 70%;
   }
   h1 {
     font-size: 48px !important;
@@ -81,9 +81,7 @@ font-size: 20px!important;
   max-width: 70%;
   margin: 0 auto;
 }
-#hero-about {
-margin: 10%;
-}
+
 
 h1,
 h2,
@@ -92,9 +90,9 @@ h3 {
   padding: 3px;
 }
 
-h3 {
+/* h3 {
   opacity: 0.7;
-}
+} */
 
 p {
   padding: 10px;
@@ -175,3 +173,21 @@ p {
   font-weight: bold;
   transition: ease-in-out;
 }
+
+#hero-work, #hero-about {
+margin: 10%;
+}
+
+.work-container {
+margin: 10%;
+}
+
+p{
+padding: 0px;
+}
+
+.right-align {
+text-align: end;
+}
+
+

@@ -31,135 +31,131 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" title="homepage" href="#">Home</a>
+      <a class="nav-link active" aria-current="page" href="work.html" title="work">Work</a>
+            <a class="nav-link" title="homepage" href="#">Home</a>
             <a class="nav-link" href="about.html" title="about me">About</a>
-      <a class="nav-link" href="work.html" title="work">Work</a>
             <a class="nav-link" href="about.html#contact" title="contact me">Contact</a>
           </div>
         </div>
       </div>
     </nav>
 <br/>
-    <div class="text-center header-div">
-    <h2 class="responsive_h2">Hello, I'm</h2>
-    <h1 class="responsive_h1">Em J</h1>
-    <h3 class="responsive_h3">Front-end developer, based in Denver, CO</h3>
-    </div>
-    <div class="navigation-links">
-      <a href="about.html#contact" title="contact me" class="contact-link">Contact me</a>
-      <a href="about.html" title="about me" class="about-link">About me</a>
-    </div>
+
 
   <div class="container">
-<h2 class="responsive_h2">Projects</h2>
-
+<section id="hero-work">
+<h1 class="responsive_h1">Projects</h1>
+<h3 class="responsive_h3">Take a look at what I've been working on</h3>
+<p>Some of the links go to live versions and others to Github repo's as major hosting platforms for dynamic content have phased out free hosting.</p>
+</section>
 <!--climbing app-->
+<div class="work-container">
   <div class="row">
-      <div class="col-sm-6 p-3">
-          <img src="/src/images/nedge.png" alt="yoga" class="rounded-1 img-fluid  d-none d-sm-block"/>
+      <div class="col-sm-6 p-3 d-flex justify-content-center">
+          <img src="/src/images/nedge.png" alt="nedge" width="250px" class="rounded-3 img-fluid  d-none d-sm-block"/>
         </div>
         <div class="col-sm-6 p-3">
-               <h2 class="responsive_h2 mb-3">Climbing App</h2>
-            <p>full crud web app built in typescript, react, postgresql, express, deployed to heroku</p>
+               <h2 class="responsive_h2 mb-3 ">Climbing App</h2>
+            <p>Full CRUD web app. Client side built in Typescript and React. Server built with Postgresql, Express. Deployed to Heroku in 2021.</p>
             <button class="btn bv-btn btn-primary shadow-lg p-3"><a href="https://github.com/emnojacks/nedge-client" target="_blank">see repo</a></button>
           </div>
 </div>
-
 <!--WEATHER APP-->
 <div class="row">
+      <div class="col-sm-6 p-3 d-flex justify-content-center">
+          <img src="/src/images/weather.png" alt="weather" width="250px" class="rounded-3 img-fluid d-none d-sm-block"/>
+        </div>
     <div class="col-sm-6 p-3">
         <h2 class="responsive_h2 mb-3">Weather App</h2>
-      <p>vanilla javascript web app</p>
+      <p>Static vanilla javascript web app deployed to Netlify in 2023</p>
       <button class="btn bv-btn btn-primary shadow-lg p-3"><a href="https://melodic-starburst-b25cd6.netlify.app/" target="_blank">check weather</a></button>
       </div>
-      <div class="col-sm-6 p-3">
-          <img src="/src/images/weather.png" alt="weather" class="rounded-1 img-fluid d-none d-sm-block"/>
-        </div>
   </div>
 
 <!--LISTO -->
   <div class="row">
-      <div class="col-sm-6 p-2">
-          <img src="/src/images/listo.png" alt="yogurt" class="rounded-1 img-fluid  d-none d-sm-block"/>
+      <div class="col-sm-6 p-3 d-flex justify-content-center">
+          <img src="/src/images/listo.png" alt="yogurt" width="250px" class="rounded-3 img-fluid  d-none d-sm-block"/>
         </div>
         <div class="col-sm-6 p-3">
                <h2 class="responsive_h2 mb-3">Listo App</h2>
-            <p>full crud web app used to create shopping lists, deployed to heroku</p>
+            <p>Full CRUD web app built in Javascript and React used to create shopping lists. Deployed to Heroku in 2021.</p>
             <button class="btn bv-btn btn-primary shadow-lg p-3"><a href="https://github.com/ryanemccall/grocery-list-client" target="_blank">see repo</a></button>
           </div>
 </div>
 
 <div class="row">
-    <div class="col-sm-6 p-3">
+      <div class="col-sm-6 p-3 d-flex justify-content-center">
+          <img src="/src/images/domain.png" alt="website image" width="250px" class="rounded-3 img-fluid d-none d-sm-block"/>
+        </div>
+<div class="col-sm-6 p-3">
         <h2 class="responsive_h2 mb-3">Green Domain API</h2>
-      <p>javascript api</p>
+      <p>Input a domain and this API call fetches whether it's CDN is powered by green energy.</p>
       <button class="btn bv-btn btn-primary shadow-lg p-3"><a href="https://greenweb-api.web.app" target="_blank">use api</a></button>
       </div>
-      <div class="col-sm-6 p-3">
-          <img src="/src/images/domain.png" alt="weather" class="rounded-1 img-fluid d-none d-sm-block"/>
-        </div>
   </div>
 
 <!--LISTO -->
   <div class="row">
-      <div class="col-sm-6 p-2">
-          <img src="/src/images/carbon.png" alt="yogurt" class="rounded-1 img-fluid  d-none d-sm-block"/>
+      <div class="col-sm-6 p-3 d-flex justify-content-center">
+          <img src="/src/images/carbon.png" alt="website image" width="250px" class="rounded-3 img-fluid  d-none d-sm-block"/>
         </div>
         <div class="col-sm-6 p-3">
                <h2 class="responsive_h2 mb-3">Carbon Impact API</h2>
-            <p>javascript api with ajax call</p>
+            <p>Input your flight information and this API call using AJAX fetches how much carbon your travels created.</p>
             <button class="btn bv-btn btn-primary shadow-lg p-3"><a href="https://flightcarbon.web.app/" target="_blank">use api</a></button>
           </div>
 </div>
 
 <div class="row">
 <!--sq space-->
-    <div class="col-sm-6 p-3">
+      <div class="col-sm-6 p-3 d-flex justify-content-center">
+          <img src="/src/images/fpg.png" alt="website image" width="250px" class="rounded-3 img-fluid d-none d-sm-block"/>
+        </div>
+<div class="col-sm-6 p-3">
         <h2 class="responsive_h2 mb-3">Squarespace</h2>
-      <p>responsive site built in squarespace</p>
+      <p>Spin through this site deployed on Squarespace for the Brooklyn based start up, Foodprint Group. Desgined based on brandbook from TripTik media.</p>
       <button class="btn bv-btn btn-primary shadow-lg p-3"><a href="https://www.foodprintgroup.com" target="_blank">visit site</a></button>
       </div>
-      <div class="col-sm-6 p-3">
-          <img src="/src/images/fpg.png" alt="weather" class="rounded-1 img-fluid d-none d-sm-block"/>
-        </div>
   </div>
 
 <!--wordpress -->
   <div class="row">
-      <div class="col-sm-6 p-2">
-          <img src="/src/images/nrc.png" alt="yogurt" class="rounded-1 img-fluid  d-none d-sm-block"/>
+      <div class="col-sm-6 p-3 d-flex justify-content-center">
+          <img src="/src/images/nrc.png" alt="website image" width="250px" class="rounded-3 img-fluid  d-none d-sm-block"/>
         </div>
         <div class="col-sm-6 p-3">
                <h2 class="responsive_h2 mb-3">Wordpress</h2>
-            <p>password protected virtual conference site wordpress.org site hosted on dreamhost</p>
+            <p>This password protected virtual conference site uses several plug ins and custom content views. Built on wordpress.org and hosted on Dreamhost.</p>
             <button class="btn bv-btn btn-primary shadow-lg p-3"><a href="https://www.nrccongress.org" target="_blank">visit site</a></button>
           </div>
 </div>
 
 <div class="row">
 <!--google sites-->
-    <div class="col-sm-6 p-3">
+      <div class="col-sm-6 p-3 d-flex justify-content-center">
+          <img src="/src/images/incircled.png" alt="incircled" width="250px" class="rounded-3 img-fluid d-none d-sm-block"/>
+        </div>
+  <div class="col-sm-6 p-3">
         <h2 class="responsive_h2 mb-3">Google Sites</h2>
-      <p>personal consulting business site built in Google Site</p>
+      <p>This is a basic Google Site for my personal consulting business. While it allows minimal styling, I like the simplicity and it's connection to Google Domains and Analytics. Site certified by Green Web Foundation. </p>
       <button class="btn bv-btn btn-primary shadow-lg p-3"><a href="https://www.incircled.org" target="_blank">visit site</a></button>
       </div>
-      <div class="col-sm-6 p-3">
-          <img src="/src/images/incircled.png" alt="weather" class="rounded-1 img-fluid d-none d-sm-block"/>
-        </div>
   </div>
 
 <!--kast-->
   <div class="row">
-      <div class="col-sm-6 p-2">
-          <img src="/src/images/kast.png" alt="yogurt" class="rounded-1 img-fluid  d-none d-sm-block"/>
+      <div class="col-sm-6 p-3 d-flex justify-content-center">
+          <img src="/src/images/kast.png" alt="website image" width="250px" class="rounded-3 img-fluid  d-none d-sm-block"/>
         </div>
         <div class="col-sm-6 p-3">
                <h2 class="responsive_h2 mb-3">Static CSS</h2>
-            <p>static css replica of original site</p>
+            <p>Given a live dynamic site, I built this static CSS replica based on what I could see.</p>
             <button class="btn bv-btn btn-primary shadow-lg p-3"><a href="https://emnojacks.github.io/static-layout/" target="_blank">visit replica</a></button>
           </div>
 </div>
-
+</div>
+<br/>
 </div>
 
 
